@@ -580,18 +580,6 @@ footer .left ul{
 }
 @media (min-width: 360px){
 
-    .plans-container--slider {
-        overflow: auto;
-        justify-content: center;
-        
-    }
-
-    .main--tables-container {
-        overflow: auto;
-        justify-content: center;
-        margin: 0 auto;
-    }
-
     .product-cards--container {
         display: flex;
         flex-wrap: wrap;
@@ -616,6 +604,17 @@ footer .left ul{
 
     .header--title-container .header--button {
         top: 200px;
+    }
+    
+    .plans-container--slider {
+        overflow: auto;
+        justify-content: center; 
+    }
+
+    .main--tables-container {
+        overflow: auto;
+        justify-content: center;
+        margin: 0 auto;
     }
     
 }
